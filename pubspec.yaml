@@ -1,0 +1,35 @@
+name: penatbodo
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 👇 TAMBAHAN UTAMA UNTUK PROJEK IOT INI 👇
+  firebase_core: ^2.27.0         # Untuk inisialisasi Firebase
+  firebase_auth: ^4.17.7         # Untuk pengesahan pengguna (Login/Signup)
+  firebase_database: ^10.4.8     # Untuk membaca dan menulis data sensor/relay secara Realtime
+  provider: ^6.1.2               # Untuk Pengurusan Keadaan (State Management)
+  # 👆 TAMBAHAN UTAMA UNTUK PROJEK IOT INI 👆
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+# ... (Bahagian lain kekal sama)

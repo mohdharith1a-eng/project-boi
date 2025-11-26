@@ -1,0 +1,7 @@
+{
+  "rules": {
+    // Membenarkan BACA dan TULIS HANYA jika pengguna telah log masuk (authenticated)
+    ".read": "auth != null", 
+    ".write": "auth != null"
+  }
+}
